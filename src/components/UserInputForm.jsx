@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './userInputForm.css';
-import booklogo from '../icon/bookCover.jpg'
+
 
 const UserInputForm = () => {
   const [favoriteBooks, setFavoriteBooks] = useState('');
@@ -80,7 +80,7 @@ const UserInputForm = () => {
           {similarDocuments.map((document, index) => (
             <li key={index} className={`book ${openBooks[index] ? 'is-open' : ''}`} onClick={() => handleBookClick(index)}>
               <div className="book-cover">
-                <img className="bookLogo" src={document.coverImgURL} alt={booklogo} />
+                <img className="bookLogo" src={document.coverImgURL} alt='book' />
               </div>
               <div className="book-content">
               <h3 className='bookTitle'>{document.original_title}</h3>
