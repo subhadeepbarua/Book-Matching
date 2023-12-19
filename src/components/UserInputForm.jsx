@@ -24,7 +24,7 @@ const UserInputForm = () => {
     };
 
     try {
-      const response = await fetch('http://https://serverbook-qx5o.onrender.com', {
+      const response = await fetch('https://serverbook-qx5o.onrender.com', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
