@@ -1,0 +1,32 @@
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #d6b6d6;
+  }
+
+.aboutText{
+font-weight: bold;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #333; 
+  color: white;
+}
+
+.navbarItem img{
+  height: 50px;
+}
+
+.navbarItem.logo{
+  margin-left: 10px;
+}
+.navbarItem.lable{
+  margin-right: 10px;
+}
+
+
+  
